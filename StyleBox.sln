@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StyleBox", "StyleBox\StyleBox.csproj", "{B64DDAD4-3D9D-42EC-B393-00BF04149820}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StyleBox.Controls", "StyleBox.Controls\StyleBox.Controls.csproj", "{C9BBDE27-BFBA-45FD-8B37-C6D07758BB0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B64DDAD4-3D9D-42EC-B393-00BF04149820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B64DDAD4-3D9D-42EC-B393-00BF04149820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B64DDAD4-3D9D-42EC-B393-00BF04149820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B64DDAD4-3D9D-42EC-B393-00BF04149820}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9BBDE27-BFBA-45FD-8B37-C6D07758BB0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9BBDE27-BFBA-45FD-8B37-C6D07758BB0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9BBDE27-BFBA-45FD-8B37-C6D07758BB0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9BBDE27-BFBA-45FD-8B37-C6D07758BB0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
