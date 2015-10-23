@@ -5,11 +5,17 @@
 
     public static class Keys
     {
-        public static ResourceKey BrushKey { get; } = CreateResourceKey();
+        public static ResourceKey ColorKey { get; } = CreateResourceKey();
 
-        public static ResourceKey LocalKey { get; } = CreateResourceKey();
+        public static ResourceKey BlueBrushKey { get; } = CreateResourceKey();
 
-        public static ResourceKey DynamicKey { get; } = CreateResourceKey();
+        public static ResourceKey ColorBrushKey { get; } = CreateResourceKey();
+
+        public static ResourceKey LocalColorStyleKey { get; } = CreateResourceKey();
+
+        public static ResourceKey DynamicBlueBrushStyleKey { get; } = CreateResourceKey();
+
+        public static ResourceKey DynamicColorBrushStyleKey { get; } = CreateResourceKey();
 
         private static ComponentResourceKey CreateResourceKey([CallerMemberName] string caller = null)
         {

@@ -1,5 +1,6 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:controls="clr-namespace:StyleBox.Controls">
-    <SolidColorBrush x:Key="{x:Static controls:Keys.BrushKey}">Blue</SolidColorBrush>
+    <SolidColorBrush x:Key="{x:Static controls:Keys.BlueBrushKey}">Blue</SolidColorBrush>
+    <SolidColorBrush x:Key="{x:Static controls:Keys.ColorBrushKey}" Color="{DynamicResource {x:Static controls:Keys.ColorKey}}" />
 </ResourceDictionary>

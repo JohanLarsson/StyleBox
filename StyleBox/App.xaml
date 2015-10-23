@@ -4,6 +4,11 @@
              xmlns:local="clr-namespace:StyleBox"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!-- This should not be needed but is solves the bug in the VS2015 designer -->
+                <ResourceDictionary Source="/StyleBox.Controls;component/Themes/Generic.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
